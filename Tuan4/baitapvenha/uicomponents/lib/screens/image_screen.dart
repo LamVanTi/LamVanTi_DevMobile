@@ -32,7 +32,7 @@ class ImageScreen extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 8),
-          const Text("In app", textAlign: TextAlign.center),
+          const Text("link", textAlign: TextAlign.center),
         ],
       ),
     );
