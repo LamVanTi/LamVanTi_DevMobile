@@ -23,6 +23,12 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Image.asset(
+              'assets/logo.png', // The path from Step 2
+              width: 100, // Optional: specify width
+              height: 100, // Optional: specify height
+              fit: BoxFit.cover, // Optional: control how the image fits
+            ),
             const Text("Create new password",
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
             const SizedBox(height: 20),
