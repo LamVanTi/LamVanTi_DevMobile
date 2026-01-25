@@ -36,30 +36,18 @@
 - **Authentication:** Email / Google Sign-In
 
 ## 🗂️ Cấu Trúc Dự Án
-
+```
 lib/
-├── main.dart    
-
-├── firebase_options.dart  
-
-│
-
-├── data/    
-
-│   ├── models/ 
-
-│   │   ├── conversation_model.dart
-
-│   │   ├── location_model.dart
-
-│   │   ├── message_model.dart
-
+├── main.dart                  # Entry point của ứng dụng
+├── firebase_options.dart      # Firebase configuration
+├── data/
+│   ├── models/                # Các model dữ liệu
+│   │   ├── user_model.dart
 │   │   ├── room_model.dart
-
-│   │   └── user_model.dart
-
-│   │
-│   └── services/                     # Service làm việc với Firebase / API
+│   │   ├── conversation_model.dart
+│   │   ├── message_model.dart
+│   │   └── location_model.dart
+│   └── services/              # Service làm việc với Firebase / API
 │       ├── auth_service.dart
 │       ├── chat_service.dart
 │       ├── favorite_service.dart
@@ -68,27 +56,22 @@ lib/
 │       ├── room_service.dart
 │       ├── storage_service.dart
 │       └── user_service.dart
-│
-├── features/                         # Feature-based UI
-│   ├── onboarding/                   # Màn hình giới thiệu
+├── features/                  # Feature-based UI
+│   ├── onboarding/
 │   │   ├── loading_screen.dart
 │   │   ├── onboarding_1.dart
 │   │   └── onboarding_2.dart
-│   │
-│   ├── auth/                         # Xác thực người dùng
+│   ├── auth/
 │   │   ├── login/
 │   │   │   └── login_screen.dart
 │   │   ├── register/
 │   │   │   └── register_screen.dart
 │   │   └── role_select/
 │   │       └── role_select_screen.dart
-│   │
-│   ├── shared/                       # Chức năng dùng chung
-│   │   └── chat/
-│   │       ├── chat_screen.dart
-│   │       └── conversation_list_screen.dart
-│   │
-│   ├── landlord/                     # Chức năng cho chủ trọ
+│   ├── chat/
+│   │   ├── chat_screen.dart
+│   │   └── conversation_list_screen.dart
+│   ├── landlord/              # Chức năng cho chủ trọ
 │   │   ├── dashboard/
 │   │   │   └── landlord_main_screen.dart
 │   │   ├── home/
@@ -102,36 +85,32 @@ lib/
 │   │   │   └── notification_screen.dart
 │   │   └── profile/
 │   │       └── profile_screen.dart
-│   │
-│   └── tenant/                       # Chức năng cho người thuê trọ
-│       ├── tenant_main.dart
-│       ├── home/
-│       │   ├── home_screen.dart
-│       │   └── widgets/
-│       │       ├── banner_slider.dart
-│       │       ├── filter_bar.dart
-│       │       └── room_card.dart
-│       │
-│       ├── search/
-│       │   └── search_screen.dart
-│       │
-│       ├── room_detail/
-│       │   ├── room_detail_screen.dart
-│       │   └── widgets/
-│       │       ├── image_slider.dart
-│       │       ├── landlord_info_card.dart
-│       │       └── room_info_section.dart
-│       │
-│       ├── favorite/
-│       │   ├── favorite_screen.dart
-│       │   └── widgets/
-│       │       └── favorite_room_card.dart
-│       │
-│       ├── notification/
-│       │   └── notification_screen.dart
-│       │
-│       └── profile/
-│           └── profile_screen.dart
+│   ├── tenant/                # Chức năng cho người thuê
+│   │   ├── tenant_main.dart
+│   │   ├── home/
+│   │   │   └── home_screen.dart
+│   │   ├── search/
+│   │   │   └── search_screen.dart
+│   │   ├── room_detail/
+│   │   │   ├── room_detail_screen.dart
+│   │   │   └── widgets/
+│   │   │       ├── image_slider.dart
+│   │   │       ├── landlord_info_card.dart
+│   │   │       └── room_info_section.dart
+│   │   ├── favorite/
+│   │   │   ├── favorite_screen.dart
+│   │   │   └── widgets/
+│   │   │       └── favorite_room_card.dart
+│   │   ├── notification/
+│   │   │   └── notification_screen.dart
+│   │   └── profile/
+│   │       └── profile_screen.dart
+│   └── shared/
+│       └── widgets/
+│           ├── banner_slider.dart
+│           ├── filter_bar.dart
+│           └── room_card.dart
+```
 
 
 
