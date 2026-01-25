@@ -38,18 +38,18 @@
 ## 🗂️ Cấu Trúc Dự Án
 
 lib/
-├── main.dart
-├── firebase_options.dart
+├── main.dart                         # Entry point của ứng dụng
+├── firebase_options.dart             # Firebase configuration
 │
-├── data/
-│   ├── models/
+├── data/                             # Data layer
+│   ├── models/                       # Các model dữ liệu
 │   │   ├── conversation_model.dart
 │   │   ├── location_model.dart
 │   │   ├── message_model.dart
 │   │   ├── room_model.dart
 │   │   └── user_model.dart
 │   │
-│   └── services/
+│   └── services/                     # Các service làm việc với Firebase / API
 │       ├── auth_service.dart
 │       ├── chat_service.dart
 │       ├── favorite_service.dart
@@ -59,13 +59,13 @@ lib/
 │       ├── storage_service.dart
 │       └── user_service.dart
 │
-├── features/
-│   ├── onboarding/
+├── features/                         # Feature-based UI
+│   ├── onboarding/                   # Màn hình giới thiệu
 │   │   ├── loading_screen.dart
 │   │   ├── onboarding_1.dart
 │   │   └── onboarding_2.dart
 │   │
-│   ├── auth/
+│   ├── auth/                         # Xác thực người dùng
 │   │   ├── login/
 │   │   │   └── login_screen.dart
 │   │   ├── register/
@@ -73,12 +73,12 @@ lib/
 │   │   └── role_select/
 │   │       └── role_select_screen.dart
 │   │
-│   ├── shared/
+│   ├── shared/                       # Chức năng dùng chung
 │   │   └── chat/
 │   │       ├── chat_screen.dart
 │   │       └── conversation_list_screen.dart
 │   │
-│   ├── landlord/
+│   ├── landlord/                     # Chức năng cho chủ trọ
 │   │   ├── dashboard/
 │   │   │   └── landlord_main_screen.dart
 │   │   ├── home/
@@ -93,7 +93,7 @@ lib/
 │   │   └── profile/
 │   │       └── profile_screen.dart
 │   │
-│   └── tenant/
+│   └── tenant/                       # Chức năng cho người thuê trọ
 │       ├── tenant_main.dart
 │       ├── home/
 │       │   ├── home_screen.dart
@@ -122,6 +122,7 @@ lib/
 │       │
 │       └── profile/
 │           └── profile_screen.dart
+
 
 
 ## 📦 Hướng Dẫn Cài Đặt & Chạy Ứng Dụng
