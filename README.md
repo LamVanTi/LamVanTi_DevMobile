@@ -25,14 +25,10 @@
 🏷️ **Lọc & sắp xếp nâng cao**  
 📅 **Lưu & quản lý hồ sơ phòng trọ yêu thích**
 
-📍 **Bản đồ & vị trí GPS**  
 💬 **Liên hệ trực tiếp với chủ nhà**
 
-📊 **Xếp hạng & đánh giá phòng trọ**
 
 ## 🛠️ Tech Stack
-
-<img src="link_icon/flutter" width="32" /> <img src="link_icon/dart" width="32" /> <img src="link_icon/firebase" width="32" /> <img src="link_icon/google-maps" width="32" />
 
 - **Frontend:** Flutter (Dart)
 - **Backend:** Firebase / Flutter (Dart)
@@ -40,4 +36,33 @@
 - **Authentication:** Email / Google Sign-In
 
 ## 🗂️ Cấu Trúc Dự Án
+
+
+
+## 📦 Hướng Dẫn Cài Đặt & Chạy Ứng Dụng
+
+### 1️⃣ Chuẩn Bị
+
+- Flutter SDK
+- Android Studio / VSCode
+- Tài khoản Firebase
+- Key Google Maps API
+
+### 2️⃣ Clone Repository
+
+Cài Dependencies
+flutter pub get
+Chạy ứng dụng
+flutter run
+
+🧠 Hướng Dẫn Sử Dụng
+
+Mở app → Đăng nhập
+
+Tìm phòng theo khu vực
+
+Lưu / phòng trọ
+
+Chat với chủ nhà
+
 
