@@ -39,7 +39,8 @@
 
 lib/
 ├── main.dart                         # Entry point của ứng dụng
-├── firebase_options.dart             # Firebase configuration
+├── firebase_options.dart  
+# Firebase configuration
 │
 ├── data/                             # Data layer
 │   ├── models/                       # Các model dữ liệu
