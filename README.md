@@ -7,13 +7,13 @@
 
 ## 🚀 Giới Thiệu
 
-[Tên Ứng Dụng] là ứng dụng di động giúp **tìm và quản lý phòng trọ hiệu quả**, tích hợp các tính năng hỗ trợ:
+[Tìm Trọ] là ứng dụng di động giúp **tìm và quản lý phòng trọ hiệu quả**, tích hợp các tính năng hỗ trợ:
 
 - Tìm kiếm phòng trọ theo vị trí, giá, tiện ích
 - Lưu trọ yêu thích
 - Đăng tin cho thuê
 - Chat / liên hệ với chủ nhà  
-- Bản đồ & chỉ đường 🚗
+
 
 Ứng dụng hướng tới trải nghiệm người dùng trực quan, nhanh chóng và thân thiện.
 
@@ -46,7 +46,6 @@
 - Flutter SDK
 - Android Studio / VSCode
 - Tài khoản Firebase
-- Key Google Maps API
 
 ### 2️⃣ Clone Repository
 
