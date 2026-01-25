@@ -126,9 +126,13 @@ lib/
 ### 2️⃣ Clone Repository
 
 Cài Dependencies
+
 flutter pub get
+
 Chạy ứng dụng
+
 flutter run
+
 
 🧠 Hướng Dẫn Sử Dụng
 
