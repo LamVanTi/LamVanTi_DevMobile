@@ -49,7 +49,7 @@ lib/
 │   │   ├── room_model.dart
 │   │   └── user_model.dart
 │   │
-│   └── services/                     # Các service làm việc với Firebase / API
+│   └── services/                     # Service làm việc với Firebase / API
 │       ├── auth_service.dart
 │       ├── chat_service.dart
 │       ├── favorite_service.dart
@@ -122,6 +122,7 @@ lib/
 │       │
 │       └── profile/
 │           └── profile_screen.dart
+
 
 
 
