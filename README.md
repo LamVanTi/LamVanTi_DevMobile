@@ -37,6 +37,91 @@
 
 ## 🗂️ Cấu Trúc Dự Án
 
+lib/
+├── main.dart
+├── firebase_options.dart
+│
+├── data/
+│   ├── models/
+│   │   ├── conversation_model.dart
+│   │   ├── location_model.dart
+│   │   ├── message_model.dart
+│   │   ├── room_model.dart
+│   │   └── user_model.dart
+│   │
+│   └── services/
+│       ├── auth_service.dart
+│       ├── chat_service.dart
+│       ├── favorite_service.dart
+│       ├── image_service.dart
+│       ├── location_service.dart
+│       ├── room_service.dart
+│       ├── storage_service.dart
+│       └── user_service.dart
+│
+├── features/
+│   ├── onboarding/
+│   │   ├── loading_screen.dart
+│   │   ├── onboarding_1.dart
+│   │   └── onboarding_2.dart
+│   │
+│   ├── auth/
+│   │   ├── login/
+│   │   │   └── login_screen.dart
+│   │   ├── register/
+│   │   │   └── register_screen.dart
+│   │   └── role_select/
+│   │       └── role_select_screen.dart
+│   │
+│   ├── shared/
+│   │   └── chat/
+│   │       ├── chat_screen.dart
+│   │       └── conversation_list_screen.dart
+│   │
+│   ├── landlord/
+│   │   ├── dashboard/
+│   │   │   └── landlord_main_screen.dart
+│   │   ├── home/
+│   │   │   └── landlord_home_screen.dart
+│   │   ├── add_room/
+│   │   │   └── add_room_screen.dart
+│   │   ├── manage_room/
+│   │   │   ├── my_rooms_screen.dart
+│   │   │   └── edit_room_screen.dart
+│   │   ├── notification/
+│   │   │   └── notification_screen.dart
+│   │   └── profile/
+│   │       └── profile_screen.dart
+│   │
+│   └── tenant/
+│       ├── tenant_main.dart
+│       ├── home/
+│       │   ├── home_screen.dart
+│       │   └── widgets/
+│       │       ├── banner_slider.dart
+│       │       ├── filter_bar.dart
+│       │       └── room_card.dart
+│       │
+│       ├── search/
+│       │   └── search_screen.dart
+│       │
+│       ├── room_detail/
+│       │   ├── room_detail_screen.dart
+│       │   └── widgets/
+│       │       ├── image_slider.dart
+│       │       ├── landlord_info_card.dart
+│       │       └── room_info_section.dart
+│       │
+│       ├── favorite/
+│       │   ├── favorite_screen.dart
+│       │   └── widgets/
+│       │       └── favorite_room_card.dart
+│       │
+│       ├── notification/
+│       │   └── notification_screen.dart
+│       │
+│       └── profile/
+│           └── profile_screen.dart
 
 
 ## 📦 Hướng Dẫn Cài Đặt & Chạy Ứng Dụng
