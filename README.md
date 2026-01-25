@@ -38,17 +38,26 @@
 ## 🗂️ Cấu Trúc Dự Án
 
 lib/
-├── main.dart                         # Entry point của ứng dụng
+├── main.dart    
+
 ├── firebase_options.dart  
-# Firebase configuration
+
 │
-├── data/                             # Data layer
-│   ├── models/                       # Các model dữ liệu
+
+├── data/    
+
+│   ├── models/ 
+
 │   │   ├── conversation_model.dart
+
 │   │   ├── location_model.dart
+
 │   │   ├── message_model.dart
+
 │   │   ├── room_model.dart
+
 │   │   └── user_model.dart
+
 │   │
 │   └── services/                     # Service làm việc với Firebase / API
 │       ├── auth_service.dart
